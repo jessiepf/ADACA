@@ -10,7 +10,7 @@ namespace ADACA.Application
     public class LoanService : ILoanService
     {
         private readonly ILoanRepository _loanRepository;
-        
+      
         List<ValidationResult> _validationResults;
 
         readonly List<IndustryDto> industries = new List<IndustryDto> {

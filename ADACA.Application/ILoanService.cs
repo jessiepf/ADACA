@@ -8,7 +8,6 @@ namespace ADACA.Application
 	public interface ILoanService
 	{
         Task<Loan> addLoan(LoanDto loanDto);
-
         Task<Response> addLoanApi(Loan loan);
 
     }

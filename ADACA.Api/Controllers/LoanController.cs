@@ -15,14 +15,12 @@ public class LoanController : ControllerBase
     {
         _loanService = loanService;
         _mapper = mapper;
-
     }
 
     [HttpPost]
     public async Task<ActionResult<Response>> Loan(LoanDtoApi loanApi)
     {
         Loan loan = _mapper.Map<Loan>(loanApi);
-
         var response = await _loanService.addLoanApi(loan);
 
         return Ok(new { data = response });
