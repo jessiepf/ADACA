@@ -14,6 +14,7 @@ builder.Services.AddDbContext<LoanContext>(opt => opt.UseSqlServer(configuration
 
 builder.Services.AddScoped<ILoanService, LoanService>();
 builder.Services.AddScoped<ILoanRepository, LoanRepository>();
+builder.Services.AddAutoMapper(typeof(Program).Assembly);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

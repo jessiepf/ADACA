@@ -6,6 +6,8 @@
 /Users/jessiefurigay/Desktop/ADACA/ADACA/ADACA/bin/Debug/net6.0/ADACA.runtimeconfig.json
 /Users/jessiefurigay/Desktop/ADACA/ADACA/ADACA/bin/Debug/net6.0/ADACA.dll
 /Users/jessiefurigay/Desktop/ADACA/ADACA/ADACA/bin/Debug/net6.0/ADACA.pdb
+/Users/jessiefurigay/Desktop/ADACA/ADACA/ADACA/bin/Debug/net6.0/AutoMapper.dll
+/Users/jessiefurigay/Desktop/ADACA/ADACA/ADACA/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /Users/jessiefurigay/Desktop/ADACA/ADACA/ADACA/bin/Debug/net6.0/Humanizer.dll
 /Users/jessiefurigay/Desktop/ADACA/ADACA/ADACA/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
 /Users/jessiefurigay/Desktop/ADACA/ADACA/ADACA/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll

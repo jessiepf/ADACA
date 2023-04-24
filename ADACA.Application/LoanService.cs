@@ -24,20 +24,8 @@ namespace ADACA.Application
             _loanRepository = loanRepository;
         }
 
-        public async Task<Loan> addLoan(LoanDto loanDto)
+        public async Task<Loan> addLoan(Loan loan)
         {
-            var loan = new Loan();
-
-            loan.firstName = loanDto.firstName;
-            loan.lastName = loanDto.lastName;
-            loan.citizen =   loanDto.citizen;
-            loan.countryCode = loanDto.countryCode;
-            loan.emailAddress = loanDto.emailAddress;
-            loan.loanAmount = loanDto.loanAmount;
-            loan.phoneNumber = loanDto.phoneNumber;
-            loan.businessNumber = loanDto.businessNumber;
-            loan.industry = loanDto.industry;
-            loan.timeTrading = loanDto.timeTrading;
             return await _loanRepository.addLoanWeb(loan);
         }
 
@@ -159,11 +147,6 @@ namespace ADACA.Application
             ValidationResult.decision = decision;
             _validationResults.Add(ValidationResult);
 
-        }
-
-        public Task<LoanAmountConfig> getLoanConfig()
-        {
-            throw new NotImplementedException();
         }
     }
 }

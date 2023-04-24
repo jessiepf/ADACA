@@ -12,6 +12,7 @@ using ADACA.Domain;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.Reflection;
+using AutoMapper;
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace ADACA.Controllers
@@ -19,10 +20,11 @@ namespace ADACA.Controllers
     public class LoanController : Controller
     {
         private readonly ILoanService _loanService;
-
-        public LoanController(ILoanService loanService)
+        private readonly IMapper _mapper;
+        public LoanController(ILoanService loanService, IMapper mapper)
         {
             _loanService = loanService;
+            _mapper = mapper;
 
         }
         // GET: /<controller>/
@@ -32,27 +34,30 @@ namespace ADACA.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Loan>> Loan(LoanDto loan)
+        public async Task<ActionResult<Loan>> Loan(LoanDto loanWeb)
         {
 
-            var result = ValidatePhoneNumber.Validation(loan);
+            var result = ValidatePhoneNumber.Validation(loanWeb);
 
             if (result != null)
             {
                 ModelState.AddModelError("phoneNumber", result);
             }
 
-            if (loan.citizen == 0)
+            if (loanWeb.citizen == 0)
             {
                 ModelState.AddModelError("citizen", "Citizen is required.");
             }
 
             if (ModelState.IsValid)
             {
+                Loan loan = _mapper.Map<Loan>(loanWeb);
+                var response = await _loanService.addLoanApi(loan);
+
                 return  await  _loanService.addLoan(loan);
             }
                
-            return View(loan);
+            return View(loanWeb);
         }
     }
 }

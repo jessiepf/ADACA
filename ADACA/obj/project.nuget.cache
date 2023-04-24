@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "qVGh7Y5WPia5SXXj6PjE+SYk3PR8EfW6oQsKcGnv6cHPNOgayigLjW6euqNv1qT22mpeXXn7ii4BVwQE5zvz8w==",
+  "dgSpecHash": "VrpeMjTNuaOxD67iGM2rqaKJTncBRMwk/nC8eZUvP+QUlto/vjA6INBq2c/qSZLPv63oO+exJw7filN5UipJmg==",
   "success": true,
   "projectFilePath": "/Users/jessiefurigay/Desktop/ADACA/ADACA/ADACA/ADACA.csproj",
   "expectedPackageFiles": [
+    "/Users/jessiefurigay/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/jessiefurigay/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/Users/jessiefurigay/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
-    "/Users/jessiefurigay/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/jessiefurigay/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/jessiefurigay/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "/Users/jessiefurigay/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.1.1/microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "/Users/jessiefurigay/.nuget/packages/microsoft.entityframeworkcore/6.0.8/microsoft.entityframeworkcore.6.0.8.nupkg.sha512",
