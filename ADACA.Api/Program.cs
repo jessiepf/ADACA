@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 ConfigurationManager configuration = builder.Configuration;
-builder.Services.AddDbContext<LoanContext>(opt => opt.UseSqlServer(configuration.GetConnectionString("LoanDb"),
+builder.Services.AddDbContext<PersonalContext>(opt => opt.UseSqlServer(configuration.GetConnectionString("PersonalDb"),
      b => b.MigrationsAssembly("ADACA.Api")));
 
 // Add services to the container.
@@ -15,9 +15,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
-builder.Services.AddScoped<ILoanService, LoanService>();
-builder.Services.AddScoped<ILoanRepository, LoanRepository>();
-
+builder.Services.AddScoped<IPersonalInforService, PersonalInforService>();
+builder.Services.AddScoped<IPersonalInfoRepository, PersonalInfoRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

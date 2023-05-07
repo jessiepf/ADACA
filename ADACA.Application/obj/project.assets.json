@@ -51,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jessiefurigay/Desktop/ADACA/ADACA/ADACA.Application/ADACA.Application.csproj",
+      "projectUniqueName": "/Users/jessiefurigay/Desktop/ITX3/ADACA/ADACA.Application/ADACA.Application.csproj",
       "projectName": "ADACA.Application",
-      "projectPath": "/Users/jessiefurigay/Desktop/ADACA/ADACA/ADACA.Application/ADACA.Application.csproj",
+      "projectPath": "/Users/jessiefurigay/Desktop/ITX3/ADACA/ADACA.Application/ADACA.Application.csproj",
       "packagesPath": "/Users/jessiefurigay/.nuget/packages/",
-      "outputPath": "/Users/jessiefurigay/Desktop/ADACA/ADACA/ADACA.Application/obj/",
+      "outputPath": "/Users/jessiefurigay/Desktop/ITX3/ADACA/ADACA.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jessiefurigay/.nuget/NuGet/NuGet.Config"
@@ -70,11 +70,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/jessiefurigay/Desktop/ADACA/ADACA/ADACA.Domain/ADACA.Domain.csproj": {
-              "projectPath": "/Users/jessiefurigay/Desktop/ADACA/ADACA/ADACA.Domain/ADACA.Domain.csproj"
+            "/Users/jessiefurigay/Desktop/ITX3/ADACA/ADACA.Domain/ADACA.Domain.csproj": {
+              "projectPath": "/Users/jessiefurigay/Desktop/ITX3/ADACA/ADACA.Domain/ADACA.Domain.csproj"
             },
-            "/Users/jessiefurigay/Desktop/ADACA/ADACA/ADACA.Dto/ADACA.Dto.csproj": {
-              "projectPath": "/Users/jessiefurigay/Desktop/ADACA/ADACA/ADACA.Dto/ADACA.Dto.csproj"
+            "/Users/jessiefurigay/Desktop/ITX3/ADACA/ADACA.Dto/ADACA.Dto.csproj": {
+              "projectPath": "/Users/jessiefurigay/Desktop/ITX3/ADACA/ADACA.Dto/ADACA.Dto.csproj"
             }
           }
         }

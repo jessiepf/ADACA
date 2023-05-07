@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jessiefurigay/Desktop/ADACA/ADACA/ADACA.Domain/ADACA.Domain.csproj",
+      "projectUniqueName": "/Users/jessiefurigay/Desktop/ITX3/ADACA/ADACA.Domain/ADACA.Domain.csproj",
       "projectName": "ADACA.Domain",
-      "projectPath": "/Users/jessiefurigay/Desktop/ADACA/ADACA/ADACA.Domain/ADACA.Domain.csproj",
+      "projectPath": "/Users/jessiefurigay/Desktop/ITX3/ADACA/ADACA.Domain/ADACA.Domain.csproj",
       "packagesPath": "/Users/jessiefurigay/.nuget/packages/",
-      "outputPath": "/Users/jessiefurigay/Desktop/ADACA/ADACA/ADACA.Domain/obj/",
+      "outputPath": "/Users/jessiefurigay/Desktop/ITX3/ADACA/ADACA.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jessiefurigay/.nuget/NuGet/NuGet.Config"

@@ -10,7 +10,7 @@ namespace ADACA.Api
 	{
 		public AutomapperConfig()
 		{
-			CreateMap<LoanDtoApi, Loan>().ReverseMap();
+			CreateMap<PersonalInformationDto, PersonalInformation>().ReverseMap();
         }
 	}
 }
